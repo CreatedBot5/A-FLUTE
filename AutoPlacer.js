@@ -216,7 +216,7 @@ class AutoPlacer {
 
 	/* Gets the text content of a timer, and returns it */
 	getTimerText(){
-		return document.body.getElementsByClassName("palette-color")[3].textContent;
+		return document.body.getElementById("cooldown-timer").textContent;
 	}
 
 	/* Gets the time in seconds until the next tile can be placed */
