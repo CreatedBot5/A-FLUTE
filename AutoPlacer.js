@@ -216,11 +216,7 @@ class AutoPlacer {
 
 	/* Gets the text content of a timer, and returns it */
 	getTimerText(){
-		}else if(this.isPxls){
-			return document.body.getElementsByClassName("palette-color")[3].textContent;
-		}else{
-			console.error("Unspecified system in getTimerText()");
-		}
+		return document.body.getElementsByClassName("palette-color")[3].textContent;
 	}
 
 	/* Gets the time in seconds until the next tile can be placed */
